@@ -5,7 +5,6 @@ class CreatePosts < ActiveRecord::Migration[5.1]
       t.integer :user_id
       t.string :title
       t.text :content
-      t.integer :likes
       t.datetime :created_at
       t.datetime :edited_at
       t.timestamps
